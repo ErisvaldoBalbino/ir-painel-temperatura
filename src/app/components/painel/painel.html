@@ -1,0 +1,11 @@
+<div class="painel">
+    <div class="controles">
+        <h1>Painel</h1>
+        <app-alarme [temperaturaAlarme]="temperatura()"></app-alarme>
+        <p>{{ temperatura() }}</p>
+        <div>
+            <button (click) = "aquecer()">Aquecer (+10)</button>
+            <button (click) = "esfriar()">Esfriar (-10)</button>
+        </div>
+    </div>
+</div>

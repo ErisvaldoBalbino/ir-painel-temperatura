@@ -1,0 +1,18 @@
+.painel {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.controles {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.controles > div {
+	display: flex;
+	justify-content: center;
+}
